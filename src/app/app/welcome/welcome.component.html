@@ -1,0 +1,70 @@
+<p>welcome works!</p>
+<div class="container">
+<img class="logo" src="../assets/img/welcom.jpg" alt=""><br><br>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newUserModal">
+    New User? 
+</button>
+<button  style="margin-left:10px "type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+     Login
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form x>
+            <div class="modal-body text-danger">
+            
+                <div class="form-group">
+                        <label>Username : </label>
+                        <input type="text" placeholder="Username" >
+                </div>
+            <br><br>
+            
+
+
+            <label>Password : </label>
+            <input type="password" placeholder="password">
+            </div>
+        </form>
+        
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="newUserModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger" id="exampleModalLabel" aria-required="true">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-danger">
+         <label>Username : </label>
+         <input type="text" placeholder="Username"><br><br>
+         <label>Password : </label>
+         <input type="password" placeholder="password">
+        </div>
+        
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Register</button>
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+

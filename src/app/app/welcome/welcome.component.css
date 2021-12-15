@@ -1,0 +1,11 @@
+.container{
+    width: 50%;
+    height: 70%;
+    background-color: lightgoldenrodyellow;
+   text-align: center;
+    color: white;
+}
+.logo{
+    width: 100%;
+    height: 80%;
+}
